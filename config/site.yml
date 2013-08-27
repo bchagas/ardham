@@ -8,7 +8,7 @@ name: Ardham Tatuaria
 # domains: [www.example.com, example.com]
 
 # TODO: explain it
-locales: [en]
+locales: [en, pt]
 
 # TODO: explain it
 seo_title: ardham-site
