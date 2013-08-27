@@ -1,0 +1,25 @@
+name: Artists
+slug: artists
+description: A description of the content type for the editors
+label_field_name: name
+order_by: manually # default: manually, also available: created_at or any field slug
+
+fields:
+- name: # Name of the field
+    label: Name
+    type: string
+    required: true
+    hint: A description of the field for the editors
+    localized: false
+- bio: # Name of the field
+    label: Biography
+    type: text
+    required: true
+    hint: A description of the field for the editors
+    localized: false
+- jobs:
+    label: Jobs
+    type: has_many
+    target: jobs
+    inverse_of: artist
+    ui_enabled: true

@@ -1,0 +1,13 @@
+---
+title: Artists
+listed: true
+published: true
+---
+
+{% extends parent %}
+
+{% block main %}
+  {% for artist in contents.artists %}
+    <li><a href='/artists/{{ artist._slug }}'>{{ artist.name }}</a></li>
+  {% endfor %}
+{% endblock %}

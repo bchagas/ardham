@@ -1,0 +1,28 @@
+---
+title: Home page
+published: true
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.name }}</title>
+    <meta name="keywords" value="{{ site.meta_keywords }}" />
+    <meta name="description" value="{{ site.meta_description }}" />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href='/'>Ardham Tatuaria</a></h1>
+    </header>
+
+    {% nav 'parent' %}
+    <h2>{{ page.title }}</h2>
+    {% block 'main' %}
+    {% endblock %}
+
+    <footer>
+      <p>&copy; Ardham Tatuaria 2013 </p>
+    </footer>
+  </body>
+</html>

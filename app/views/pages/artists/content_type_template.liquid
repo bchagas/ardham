@@ -1,0 +1,14 @@
+---
+title: Page Title
+content_type: artists
+---
+
+{% extends 'index' %}
+{% block main %}
+<a href='/artists'>&larr; Back</a>
+<p>{{ artist.bio }}</p>
+{% for job in artist.jobs %}
+  <p>{{ job.name }}</p>
+  {{ job.photo['url'] | image_tag }}
+{% endfor %}
+{% endblock %}
