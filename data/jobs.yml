@@ -1,25 +1,25 @@
 - "Sample 1":
-    photo: 'http://distilleryimage0.ak.instagram.com/4fdbdda00cec11e3acce22000a9f15d8_7.jpg'
+    photo: '/images/brice/4fdbdda00cec11e3acce22000a9f15d8_7.jpg'
     artist: Brice
 
 - "Sample 11":
-    photo: 'http://distilleryimage8.ak.instagram.com/f2328da6036e11e3aaa822000a1fb0dd_7.jpg'
+    photo: '/images/brice/f2328da6036e11e3aaa822000a1fb0dd_7.jpg'
     artist: Brice
 
 - "Sample 12":
-    photo: 'http://distilleryimage0.ak.instagram.com/ae2df4c0f16611e29ebd22000aaa21ed_7.jpg'
+    photo: '/images/brice/ae2df4c0f16611e29ebd22000aaa21ed_7.jpg'
     artist: Brice
 
 - "Sample 2":
-    photo: 'http://distilleryimage1.ak.instagram.com/bc78bca60eba11e38e6622000ae91458_7.jpg'
+    photo: '/images/brian/bc78bca60eba11e38e6622000ae91458_7.jpg'
     artist: Brian
 
 - "Sample 5":
-    photo: 'http://distilleryimage6.ak.instagram.com/91d8989e0e4811e3af4222000aa8012b_7.jpg'
+    photo: '/images/brian/91d8989e0e4811e3af4222000aa8012b_7.jpg'
     artist: Brian
 
 - "Sample 7":
-    photo: 'http://distilleryimage3.ak.instagram.com/9edeab9e045e11e3b7ba22000aaa2161_7.jpg'
+    photo: '/images/brian/9edeab9e045e11e3b7ba22000aaa2161_7.jpg'
     artist: Brian
 
 - "Sample 3":
