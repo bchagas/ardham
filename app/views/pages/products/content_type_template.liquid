@@ -1,0 +1,11 @@
+---
+title: Page Title
+content_type: products
+---
+
+{% extends 'index' %}
+{% block main %}
+<a href='/products'>&larr; Back</a>
+<p>{{ product.photo['url'] | image_tag }}</p>
+<p>{{ product.category.name }}</p>
+{% endblock %}

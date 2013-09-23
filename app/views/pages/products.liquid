@@ -1,0 +1,13 @@
+---
+title: Products
+listed: true
+published: true
+---
+
+{% extends parent %}
+
+{% block main %}
+  {% for product in contents.products %}
+    <li><a href='/products/{{ product._slug }}'>{{ product.name }}</a></li>
+  {% endfor %}
+{% endblock %}

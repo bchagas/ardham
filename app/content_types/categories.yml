@@ -1,0 +1,19 @@
+name: Categories
+slug: categories
+description: A description of the content type for the editors
+label_field_name: name
+order_by: manually # default: manually, also available: created_at or any field slug
+
+fields:
+- name: # Name of the field
+    label: Name
+    type: string
+    required: true
+    hint: A description of the field for the editors
+    localized: false
+- products:
+    label: Products
+    type: has_many
+    target: products
+    inverse_of: category
+    ui_enabled: true
